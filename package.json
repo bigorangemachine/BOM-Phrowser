@@ -1,0 +1,30 @@
+{
+  "name": "phrowser",
+  "version": "0.0.0",
+  "description": "Using PhantomJS in a Helper/OOP-Class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigorangemachine/BOM-Phrowser.git"
+  },
+  "keywords": [
+    "Phantom"
+  ],
+  "author": "BigOrangeMachine",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bigorangemachine/BOM-Phrowser/issues"
+  },
+  "homepage": "https://github.com/bigorangemachine/BOM-Phrowser#readme",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "phantom": "^0.7.2",
+    "querystring": "^0.2.0",
+    "underscore": "^1.8.3",
+    "url": "^0.10.3",
+    "bom-utils": "git://github.com/bigorangemachine/BOM-nodejs-utils.git#v0.0.4"
+  }
+}

@@ -1,6 +1,6 @@
 module.exports = function(){//dependancies
     //modules
-    var utils=require('../jspkg/utils'),
+    var utils=require('bom-utils'),
         phantom=require('phantom'),
         _ = require('underscore'),
         merge=require('merge'),
